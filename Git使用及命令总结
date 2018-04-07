@@ -5,6 +5,8 @@ git分为工作区、暂存区和版本库：
   
 git init：用来创建本地的仓库
 git clone <git库> <本地路径>：创建仓库
+git remote add origin <远程库>：关联远程库
+git remote rm origin：删除已有的远程库
 
 git add <filename>：将文件添加到暂存区
 git rm <fielname> ：将文件从暂存区和工作区删除
@@ -24,3 +26,11 @@ git reset --hard <commit_id>：重置到历史某个版本
 
 git log ：查看最近的提交操作日志
 git reflog:查看最近的命令操作日志
+
+git branch:查看当前分支
+git checkout -b <分支名>：切换和创建一个新的分支，相当于下面两条命令：
+git branch <分支名>：创建一个分支 
+git checkout <分支名>：切换分支
+
+git merge <分支名>：命令用于合并指定分支到当前分支。
+git -d branch <分支名>：删除指定分支
