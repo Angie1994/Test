@@ -24,3 +24,5 @@ git reset --hard <commit_id>：重置到历史某个版本
 
 git log ：查看最近的提交操作日志
 git reflog:查看最近的命令操作日志
+git pull:更新github上的内容到本地
+git push （-u) origin master：推送本地修改到github
